@@ -6,6 +6,8 @@ Steps to run:
 
 * run `bundle install`
 
+* duplicate database.yml.example remove .example
+
 * run `rake db:create db:migrate`
 
 * run `rspec`

@@ -1,24 +1,13 @@
-# README
+# HOW TO RUN
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps to run:
 
-Things you may want to cover:
+* clone repo
 
-* Ruby version
+* run `bundle install`
 
-* System dependencies
+* run `rake db:migrate db:create`
 
-* Configuration
+* run `rspec`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+FactoryBot is set for patients for now.

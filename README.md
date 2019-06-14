@@ -6,7 +6,7 @@ Steps to run:
 
 * run `bundle install`
 
-* run `rake db:migrate db:create`
+* run `rake db:create db:migrate`
 
 * run `rspec`
 

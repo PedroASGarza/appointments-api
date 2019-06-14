@@ -5,7 +5,7 @@ class Appointment < ApplicationRecord
 
   validates :cause, presence: true
 
-  after_create :send_notification, if: :reminder?
+  after_save :send_notification, if: :reminder?
 
   def send_notification
     send_reminder('patient', patient, physician)
